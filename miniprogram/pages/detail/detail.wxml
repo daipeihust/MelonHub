@@ -1,0 +1,4 @@
+<!--miniprogram/pages/detail/detail.wxml-->
+<view class="page">
+  <rich-text nodes="{{melonContents}}"></rich-text>
+</view>

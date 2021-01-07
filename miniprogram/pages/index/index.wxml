@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="page">
+
+  <view class="page__bd">
+    <view class="weui-panel page__hd">
+      <block wx:for="{{melonList}}" wx:for-item="melon" wx:key="melonId">
+        <view bindtap="requestBackend" hover-class="weui-cell_active">
+          <view>
+            <view class="weui-msg__title">{{index}}. {{melon.title}}</view>
+            <view class="weui-msg__desc" >{{melon.content}}</view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <!-- <mp-dialog id="dialog" title="瓜币不足" type="default" mask-closable="true"
+    buttons="{{[{text: 'cancel'}, {text: 'OK'}]}}">
+    <view>您没有足够的瓜币！观看视频赚取瓜币</view>
+  </mp-dialog> -->
+
+</view>

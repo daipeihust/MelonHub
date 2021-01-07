@@ -1,0 +1,26 @@
+<!--miniprogram/pages/profile.wxml-->
+
+<view class="page">
+  <view class="page__bd">
+    <mp-cells>
+      <mp-cell value="DP" footer="吃瓜群众">
+        <image slot="icon" src="./user-unlogin.png"
+          style="margin-right: 16px;vertical-align: middle;width:50px; height: 50px;"></image>
+      </mp-cell>
+    </mp-cells>
+    <mp-cells>
+      <mp-cell link url="" value="瓜币" footer="100"></mp-cell>
+      <mp-cell link url="../upload/upload" value="看视频" footer="得瓜币"></mp-cell>
+      <mp-cell link url="../upload/upload" value="种瓜" footer="得瓜币"></mp-cell>
+      <mp-cell link url="../upload/upload" value="我种的瓜" footer="0"></mp-cell>
+    </mp-cells>
+    <mp-cells>
+      <mp-cell link url="../upload/upload" value="充值" footer="首充有奖励"></mp-cell>
+      <mp-cell link url="../upload/upload" value="去广告"></mp-cell>
+    </mp-cells>
+    <mp-cells title="管理员功能">
+      <mp-cell link url="../upload/upload" value="审核"></mp-cell>
+      <mp-cell link url="../upload/upload" value="新增管理员"></mp-cell>
+    </mp-cells>
+  </view>
+</view>
